@@ -32,5 +32,73 @@ This module uses the novel ordering algorithm utilising geometrical information 
 This module utilises the improved version of the A* algorithm used to find the shortest path between two nodes. The improvements include integrating the pre-processed map, ensuring obstacle avoidance, managing cost considerations, and post-pruning the generated path. These modifications optimize the A* algorithm for its application in the ordering algorithm.
 
 
-![Algorithm Flowchart](figures/GraphicalAbstract.png)
+![Algorithm Graphical Abstract](figures/GraphicalAbstract.png)
+
+## Getting Started
+
+__**Working Instructions with AMuGOPIA**__
+
+**AMuGOPIA** can be set up and used in your own projects with the following steps:
+
+__Prerequisites:__
+
+    Python 3.x
+
+__Initial Assignments:__
+
+- 1- Open the file AMuGOPIA.ipynb and go to the cell titled "**Uploading The Map and Setting User Choices**".
+- 2- Insert the name of your own PROCESSED map with its corresponding extension (preferably .png) in the corresponding Variable:
+
+        imageDirectory = 'map.png'
+
+- 2.1- If your own map file is not located in the same folder of AMuGOPIA.ipynb, write its directory before the name of the map.
+- 2.2- If you do not have a map, use the already provided map file (map.png).
+- 3- Assign the desired spacing value in terms of pixels to the corresponding Variable (Follow the conditions of this parameter detailed in the paper):
+
+        spacing = 40 #pixels
+
+- 4- Assign the desired scale value in terms of meters/pixels to the corresponding variable:
+
+        scale = 1 #meters/pixels
+
+- 5- In the cell titled "Map Pre-Processing", you can assign the coordinates of the nodes that will be worked on during the execution of AMuGOPIA to the corresponding variable as a list of tuples, each tuple includes the x and y coordinates of one of the user-defined nodes:
+
+        userDefinedNodesCoordinates = [(300, 300), (400, 1255), (4314, 154), (646, 3678), (2100, 2325), (2710, 106), (1266, 164), (4000, 3660), (2800, 1775), (2475, 3277), (4200, 1500)]# list of user-defined goal nodes to visit
+
+- 5.1- if the scale is 1 meters/pixel, then you can insert the coordinates in terms of meters. However, if the scale is not 1 meters/pixel you should calculate the corresponding pixel coordinates of your nodes.
+- 6- Investigate the following cells and run them to assess the algorithms. You can always assign the starting node coordinates to the corresponding variable. The starting node should be either present in the generated equally-spaced nodes or stored in the variable 'userDefinedNodes':
+
+        startingNode = (300, 300)
+
+- 7- You can also assign the coordinates of the goal nodes as a list of tuples to the corresponding variable. The goal nodes should be either present in the generated equally-spaced nodes or stored in the variable 'userDefinedNodes':
+
+        goalNodes = [(5266, 1255), (4314, 154), (646, 3678), (2100, 2325), (2710, 106), (1266, 164), (5000, 3660), (3222, 1775), (2475, 3277), (988, 1972)]
+
+- Note: in the provided file, all starting nodes and goal nodes are selected randomly from the available navigable nodes. You can manually select the coordinates of those node if you follow steps 6 and 7 in the experiment of interest.
+
+__Running AMuGOPIA:__
+
+
+
+- 0- After assigning and checking for the necessary preliminaries, RUN the code.
+- 1- At first, MuGONA will generate equally-spaced nodes with respect to the specified spacing and then will show the generated equally-spaced nodes and the user-defined nodes on the map plot.
+
+![Generated Equally-Spaced Nodes and User-Defined Nodes](https://github.com/abdullah1aloush1/MuGONA/blob/main/Equally-spaced%20nodes%20generation.png)
+
+- 2- Secondly, MuGONA will show the selected starting node and the selected goal nodes on the map plot.
+
+![Starting and Goal Nodes](https://github.com/abdullah1aloush1/MuGONA/blob/main/Starting%20and%20Goal%20Nodes.png)
+
+- 3- Thirdly, MuGONA will start ordering the goal nodes seeking the near-optimal visiting configuration. The code may run for a certain period of time, depending on the given parameters and the number of goal nodes, until all of the nodes are ordered.
+- 4- Fourthly, MuGONA will generate the overall path connecting the ordered goal nodes and show it on the map plot.
+
+![Generated Overall Path](https://github.com/abdullah1aloush1/MuGONA/blob/main/Generated%20Overall%20Path.png)
+
+- 5- Fifthly, MuGONA will smooth the path using cubic splines and show the smoothed path on the map plot.
+
+![Smoothed Path](https://github.com/abdullah1aloush1/MuGONA/blob/main/Smoothed%20Path.png)
+
+- 6- In order for MuGONA to proceed, each plot should be closed after it's inspected.
+- 7- The recorded data and workflow information (including the coordinates of the generated overall path) are always printed in the terminal.
+
 
