@@ -32,5 +32,5 @@ This module uses the novel ordering algorithm utilising geometrical information 
 This module utilises the improved version of the A* algorithm used to find the shortest path between two nodes. The improvements include integrating the pre-processed map, ensuring obstacle avoidance, managing cost considerations, and post-pruning the generated path. These modifications optimize the A* algorithm for its application in the ordering algorithm.
 
 
-![Algorithm Flowchart](figures/2.pdf)
+![Algorithm Flowchart](figures/GraphicalAbstract.png)
 
