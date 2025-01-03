@@ -80,17 +80,18 @@ __Running AMuGOPIA:__
 
 
 - 0- After assigning and checking for the necessary preliminaries, RUN the code.
+
 - 1- At first, AMuGOPIA will generate equidistant nodes using the specified spacing and then will show the generated equidistant nodes and the user-defined nodes on the map plot.
 
-![Equidistant Node Generation](figures/Equidistant Node Generation.png)
+![Equidistant Node Generation](figures/EquidistantNodeGeneration.png)
 
 - 2- Second, AMuGOPIA will show the Non-navigable nodes representing the obstacles.
 
-![Non-Navigable Nodes](figures\Non-Navigable Nodes.png)
+![Non-Navigable Nodes](figures\Non-NavigableNodes.png)
 
 - 3- Third, AMuGOPIA will detect the contours of the obstacles and show them.
 
-![Obstacle Contour Detection](figures\Obstacle Contour Detection.png)
+![Obstacle Contour Detection](figures\ObstacleContourDetection.png)
 
 - 4- Fourth, AMuGOPIA demonstrates two figures, one for equidistant nodes and the other for user-defined nodes, showing some randomly picked nodes and their neighbours.
 
@@ -98,25 +99,25 @@ __Running AMuGOPIA:__
 
 - 5- Fifth, AMuGOPIA shows the visual results of a comparison between the classical A* algorithm and the improved A* algorithm on randomly picked starting and goal nodes.
 
-![Non Post-Pruned Path vs Post-Pruned Path](figures\Non Post-Pruned Path vs Post-Pruned Path.png)
+![Non Post-Pruned Path vs Post-Pruned Path](figures\NonPost-PrunedPathvsPost-PrunedPath.png)
 
 - 6- Sixth, AMuGOPIA demonstrates a comparison between A*, Improved A*, Bidirectional A* and RRT*.
 
-![A*, Improved A*, Bidirectional A* and RRT*](figures\AStar, Improved AStar, Bidirectional AStar and RRTStar.png)
+![A*, Improved A*, Bidirectional A* and RRT*](figures\AStar,ImprovedAStar,BidirectionalAStarandRRTStar.png)
 
 - 7- Seventh, AMuGOPIA visualizes a comparison between Sequential Angle-Based and Combined Angle-Based Ordering.
 
-![Sequential Angle-Based Vs. Combined Angle-Based Ordering](figures\Sequential Angle-Based Vs. Combined Angle-Based Ordering.png)
+![Sequential Angle-Based Vs. Combined Angle-Based Ordering](figures\SequentialAngle-BasedVs.CombinedAngle-BasedOrdering.png)
 
 - 8- Eighth, AMuGOPIA shows a comparison between Ensemble Angle-Based Ordering and Post-Pruned Ensemble Angle-Based Ordering.
 
-![Ensemble Angle-Based Ordering vs. Post-Pruned Ensemble Angle-Based Ordering](figures\Ensemble Angle-Based Ordering vs. Post-Pruned Ensemble Angle-Based Ordering.png)
+![Ensemble Angle-Based Ordering vs. Post-Pruned Ensemble Angle-Based Ordering](figures\EnsembleAngle-BasedOrderingvs.Post-PrunedEnsembleAngle-BasedOrdering.png)
 
 - 9- Ninth- AMuGOPIA demonstrates an example of Optimal Ordering Using Google's TSP Solver.
 
-![Optimal Ordering Using Google's TSP Solver](figures\Optimal Ordering Using Google's TSP Solver.png)
+![Optimal Ordering Using Google's TSP Solver](figures\OptimalOrderingUsingGoogle'sTSPSolver.png)
 
 - 10- Last, AMuGOPIA visualizes a comparison between various ordering algorithm.
 
- ![Ordering Algorithms Comparisons](figures\Ordering Algorithms Comparisons.png)
+ ![Ordering Algorithms Comparisons](figures\OrderingAlgorithmsComparisons.png)
 
