@@ -94,7 +94,7 @@ __Running AMuGOPIA:__
 
 - 4- Fourth, AMuGOPIA demonstrates two figures, one for equidistant nodes and the other for user-defined nodes, showing some randomly picked nodes and their neighbours.
 
-![Neighbourhood Graph: Equidistant Vs User-Defined](figures\Neighbourhood Graph.png)
+![Neighbourhood Graph: Equidistant Vs User-Defined](figures\NeighbourhoodGraph.png)
 
 - 5- Fifth, AMuGOPIA shows the visual results of a comparison between the classical A* algorithm and the improved A* algorithm on randomly picked starting and goal nodes.
 
