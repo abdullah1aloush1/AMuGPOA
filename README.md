@@ -99,7 +99,7 @@ __Running AMuGOPIA:__
 
 - 5- Fifth, AMuGOPIA shows the visual results of a comparison between the classical A* algorithm and the improved A* algorithm on randomly picked starting and goal nodes.
 
-![Non Post-Pruned Path vs Post-Pruned Path](figures/ NonPost-PrunedPathvsPost-PrunedPath.png)
+![Non Post-Pruned Path vs Post-Pruned Path](figures/NonPost-PrunedPathvsPost-PrunedPath.png)
 
 - 6- Sixth, AMuGOPIA demonstrates a comparison between A*, Improved A*, Bidirectional A* and RRT*.
 
