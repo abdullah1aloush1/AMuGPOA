@@ -107,17 +107,17 @@ __Running AMuGOPIA:__
 
 - 7- Seventh, AMuGOPIA visualizes a comparison between Sequential Angle-Based and Combined Angle-Based Ordering.
 
-![Sequential Angle-Based Vs. Combined Angle-Based Ordering](figures\SequentialAngle-BasedVs.CombinedAngle-BasedOrdering.png)
+![Sequential Angle-Based Vs. Combined Angle-Based Ordering](figures/SequentialAngle-BasedVs.CombinedAngle-BasedOrdering.png)
 
 - 8- Eighth, AMuGOPIA shows a comparison between Ensemble Angle-Based Ordering and Post-Pruned Ensemble Angle-Based Ordering.
 
-![Ensemble Angle-Based Ordering vs. Post-Pruned Ensemble Angle-Based Ordering](figures\EnsembleAngle-BasedOrderingvs.Post-PrunedEnsembleAngle-BasedOrdering.png)
+![Ensemble Angle-Based Ordering vs. Post-Pruned Ensemble Angle-Based Ordering](figures/EnsembleAngle-BasedOrderingvs.Post-PrunedEnsembleAngle-BasedOrdering.png)
 
 - 9- Ninth- AMuGOPIA demonstrates an example of Optimal Ordering Using Google's TSP Solver.
 
-![Optimal Ordering Using Google's TSP Solver](figures\OptimalOrderingUsingGoogle'sTSPSolver.png)
+![Optimal Ordering Using Google's TSP Solver](figures/OptimalOrderingUsingGoogle'sTSPSolver.png)
 
 - 10- Last, AMuGOPIA visualizes a comparison between various ordering algorithm.
 
- ![Ordering Algorithms Comparisons](figures\OrderingAlgorithmsComparisons.png)
+ ![Ordering Algorithms Comparisons](figures/OrderingAlgorithmsComparisons.png)
 
