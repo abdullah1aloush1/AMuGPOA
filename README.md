@@ -84,20 +84,39 @@ __Running AMuGOPIA:__
 
 ![Equidistant Node Generation](figures/Equidistant Node Generation.png)
 
-- 2- Secondly, MuGONA will show the selected starting node and the selected goal nodes on the map plot.
+- 2- Second, AMuGOPIA will show the Non-navigable nodes representing the obstacles.
 
-![Starting and Goal Nodes](https://github.com/abdullah1aloush1/MuGONA/blob/main/Starting%20and%20Goal%20Nodes.png)
+![Non-Navigable Nodes](figures\Non-Navigable Nodes.png)
 
-- 3- Thirdly, MuGONA will start ordering the goal nodes seeking the near-optimal visiting configuration. The code may run for a certain period of time, depending on the given parameters and the number of goal nodes, until all of the nodes are ordered.
-- 4- Fourthly, MuGONA will generate the overall path connecting the ordered goal nodes and show it on the map plot.
+- 3- Third, AMuGOPIA will detect the contours of the obstacles and show them.
 
-![Generated Overall Path](https://github.com/abdullah1aloush1/MuGONA/blob/main/Generated%20Overall%20Path.png)
+![Obstacle Contour Detection](figures\Obstacle Contour Detection.png)
 
-- 5- Fifthly, MuGONA will smooth the path using cubic splines and show the smoothed path on the map plot.
+- 4- Fourth, AMuGOPIA demonstrates two figures, one for equidistant nodes and the other for user-defined nodes, showing some randomly picked nodes and their neighbours.
 
-![Smoothed Path](https://github.com/abdullah1aloush1/MuGONA/blob/main/Smoothed%20Path.png)
+![Neighbourhood Graph: Equidistant Vs User-Defined](figures\Neighbourhood Graph.png)
 
-- 6- In order for MuGONA to proceed, each plot should be closed after it's inspected.
-- 7- The recorded data and workflow information (including the coordinates of the generated overall path) are always printed in the terminal.
+- 5- Fifth, AMuGOPIA shows the visual results of a comparison between the classical A* algorithm and the improved A* algorithm on randomly picked starting and goal nodes.
 
+![Non Post-Pruned Path vs Post-Pruned Path](figures\Non Post-Pruned Path vs Post-Pruned Path.png)
+
+- 6- Sixth, AMuGOPIA demonstrates a comparison between A*, Improved A*, Bidirectional A* and RRT*.
+
+![A*, Improved A*, Bidirectional A* and RRT*](figures\AStar, Improved AStar, Bidirectional AStar and RRTStar.png)
+
+- 7- Seventh, AMuGOPIA visualizes a comparison between Sequential Angle-Based and Combined Angle-Based Ordering.
+
+![Sequential Angle-Based Vs. Combined Angle-Based Ordering](figures\Sequential Angle-Based Vs. Combined Angle-Based Ordering.png)
+
+- 8- Eighth, AMuGOPIA shows a comparison between Ensemble Angle-Based Ordering and Post-Pruned Ensemble Angle-Based Ordering.
+
+![Ensemble Angle-Based Ordering vs. Post-Pruned Ensemble Angle-Based Ordering](figures\Ensemble Angle-Based Ordering vs. Post-Pruned Ensemble Angle-Based Ordering.png)
+
+- 9- Ninth- AMuGOPIA demonstrates an example of Optimal Ordering Using Google's TSP Solver.
+
+![Optimal Ordering Using Google's TSP Solver](figures\Optimal Ordering Using Google's TSP Solver.png)
+
+- 10- Last, AMuGOPIA visualizes a comparison between various ordering algorithm.
+
+ ![Ordering Algorithms Comparisons](figures\Ordering Algorithms Comparisons.png)
 
