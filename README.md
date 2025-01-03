@@ -91,19 +91,19 @@ __Running AMuGOPIA:__
 
 - 3- Third, AMuGOPIA will detect the contours of the obstacles and show them.
 
-![Obstacle Contour Detection](figures\ObstacleContourDetection.png)
+![Obstacle Contour Detection](figures/ObstacleContourDetection.png)
 
 - 4- Fourth, AMuGOPIA demonstrates two figures, one for equidistant nodes and the other for user-defined nodes, showing some randomly picked nodes and their neighbours.
 
-![Neighbourhood Graph: Equidistant Vs User-Defined](figures\NeighbourhoodGraph.png)
+![Neighbourhood Graph: Equidistant Vs User-Defined](figures/NeighbourhoodGraph.png)
 
 - 5- Fifth, AMuGOPIA shows the visual results of a comparison between the classical A* algorithm and the improved A* algorithm on randomly picked starting and goal nodes.
 
-![Non Post-Pruned Path vs Post-Pruned Path](figures\NonPost-PrunedPathvsPost-PrunedPath.png)
+![Non Post-Pruned Path vs Post-Pruned Path](figures/NonPost-PrunedPathvsPost-PrunedPath.png)
 
 - 6- Sixth, AMuGOPIA demonstrates a comparison between A*, Improved A*, Bidirectional A* and RRT*.
 
-![A*, Improved A*, Bidirectional A* and RRT*](figures\AStar,ImprovedAStar,BidirectionalAStarandRRTStar.png)
+![A*, Improved A*, Bidirectional A* and RRT*](figures/AStar,ImprovedAStar,BidirectionalAStarandRRTStar.png)
 
 - 7- Seventh, AMuGOPIA visualizes a comparison between Sequential Angle-Based and Combined Angle-Based Ordering.
 
