@@ -79,11 +79,10 @@ __Initial Assignments:__
 __Running AMuGOPIA:__
 
 
-
 - 0- After assigning and checking for the necessary preliminaries, RUN the code.
-- 1- At first, MuGONA will generate equally-spaced nodes with respect to the specified spacing and then will show the generated equally-spaced nodes and the user-defined nodes on the map plot.
+- 1- At first, AMuGOPIA will generate equidistant nodes using the specified spacing and then will show the generated equidistant nodes and the user-defined nodes on the map plot.
 
-![Generated Equally-Spaced Nodes and User-Defined Nodes](https://github.com/abdullah1aloush1/MuGONA/blob/main/Equally-spaced%20nodes%20generation.png)
+![Equidistant Node Generation](figures/Equidistant Node Generation.png)
 
 - 2- Secondly, MuGONA will show the selected starting node and the selected goal nodes on the map plot.
 
