@@ -103,7 +103,7 @@ __Running AMuGOPIA:__
 
 - 6- Sixth, AMuGOPIA demonstrates a comparison between A*, Improved A*, Bidirectional A* and RRT*.
 
-![A*, Improved A*, Bidirectional A* and RRT*](figures/AStar,ImprovedAStar,BidirectionalAStarandRRTStar.png)
+![A*, Improved A*, Bidirectional A* and RRT*](figures/A,ImprovedA,BidirectionalAandRRT.png)
 
 - 7- Seventh, AMuGOPIA visualizes a comparison between Sequential Angle-Based and Combined Angle-Based Ordering.
 
