@@ -87,7 +87,7 @@ __Running AMuGOPIA:__
 
 - 2- Second, AMuGOPIA will show the Non-navigable nodes representing the obstacles.
 
-![Non-Navigable Nodes](figures\Non-NavigableNodes.png)
+![Non-Navigable Nodes](figures\NonNavigableNodes.png)
 
 - 3- Third, AMuGOPIA will detect the contours of the obstacles and show them.
 
